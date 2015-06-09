@@ -1,0 +1,8 @@
+@()(implicit ctx: Context[_])
+
+@main("JetBrains") {
+
+  <h1>@{SomeHelper.someText}</h1>
+  <h1>Current message is @{ctx.messages("hello.world")}</h1>
+
+}
